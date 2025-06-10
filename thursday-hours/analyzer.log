@@ -1,0 +1,552 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	analyzer
+#open	2025-05-30-15-42-44
+#fields	ts	cause	analyzer_kind	analyzer_name	uid	fuid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	failure_reason	failure_data
+#types	time	string	string	string	string	string	addr	port	addr	port	string	string
+1499342443.206169	violation	protocol	LDAP_TCP	CMfJ0XnrmXXAoNsS6	-	192.168.10.19	32792	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499342443.264110	violation	protocol	LDAP_TCP	CHziTFDXNWELdx7Xa	-	192.168.10.19	32794	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499342444.603261	violation	protocol	LDAP_TCP	CKVxHi1h6CiEY6GhIl	-	192.168.10.19	44766	192.168.10.3	3268	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499342453.157354	violation	protocol	LDAP_TCP	C65Aa24sDByDuTvsU3	-	192.168.10.12	34932	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499342453.735777	violation	protocol	LDAP_TCP	C1jwlN2QuhYcHFC4Zc	-	192.168.10.12	34828	192.168.10.3	3268	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499342464.557914	violation	protocol	LDAP_TCP	C6oAle2Li90wQVyQ2g	-	192.168.10.12	34942	192.168.10.3	389	expecting 1 bytes for unpacking value (0 bytes available) (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:91:4-95:3)	0\x18\x02\x01\x03`\x13\x02\x01\x03\x04\x00\xa3\x0c\x04\x0aGSS-SPNEGO
+1499342465.813728	violation	protocol	LDAP_TCP	CBnfZ03Cn6WeoK4yI7	-	192.168.10.15	49425	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:91:4-95:3)	-
+1499342470.709002	violation	protocol	LDAP_TCP	CQwWhD3foYamLioQG2	-	192.168.10.8	49164	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:91:4-95:3)	-
+1499342470.822264	violation	protocol	LDAP_TCP	Cza1qz3FcolDZyHHSh	-	192.168.10.8	49168	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:91:4-95:3)	-
+1499342470.845609	violation	protocol	LDAP_TCP	CRb2l03L5csTbgZDV6	-	192.168.10.8	49172	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:91:4-95:3)	-
+1499342474.229843	violation	protocol	LDAP_TCP	CPMA3g26YMuHzw5Jzf	-	192.168.10.15	49428	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:91:4-95:3)	-
+1499342474.243791	violation	protocol	LDAP_TCP	C2i89P1s11voEaPxf7	-	192.168.10.15	49429	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:91:4-95:3)	-
+1499342474.794641	violation	protocol	LDAP_TCP	CUPKCZmRFGpJymc37	-	192.168.10.15	49433	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:91:4-95:3)	-
+1499342474.899043	violation	protocol	LDAP_TCP	CarYjq4Tm0YzMHAMYe	-	192.168.10.15	49435	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:91:4-95:3)	-
+1499342479.123632	violation	protocol	LDAP_TCP	CpTtVL24e2Ej4cl1Rh	-	192.168.10.8	49177	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:91:4-95:3)	-
+1499342479.140348	violation	protocol	LDAP_TCP	CvGKbe2DgVAieIROj1	-	192.168.10.8	49178	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:91:4-95:3)	-
+1499342484.328816	violation	protocol	LDAP_TCP	C3e7Ot8rZ0gCPFKs2	-	192.168.10.9	1033	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:91:4-95:3)	-
+1499342484.464698	violation	protocol	LDAP_TCP	C9Mq0a3myUrOb2RMrk	-	192.168.10.5	49159	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:91:4-95:3)	-
+1499342484.605206	violation	protocol	LDAP_TCP	CUOV3O2YtWXcpg5oVj	-	192.168.10.5	49173	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:91:4-95:3)	-
+1499342484.725174	violation	protocol	LDAP_TCP	ChtfSrXEPbRzYkvX9	-	192.168.10.5	49175	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:91:4-95:3)	-
+1499342494.191890	violation	protocol	LDAP_TCP	CTd4Ue2sO8REtBOxJ8	-	192.168.10.5	49184	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:91:4-95:3)	-
+1499342494.302963	violation	protocol	LDAP_TCP	CBEdP21ZxPlylAD5Ka	-	192.168.10.5	49185	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:91:4-95:3)	-
+1499342517.146735	violation	protocol	LDAP_TCP	C4xqlE3vXaAVGFEtQe	-	192.168.10.9	1049	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:91:4-95:3)	-
+1499342517.172600	violation	protocol	LDAP_TCP	CXYGwT1acIDjN0NxC2	-	192.168.10.9	1051	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:91:4-95:3)	-
+1499342522.588350	violation	protocol	LDAP_TCP	CeulOB1zs0EQ8S44z	-	192.168.10.9	1059	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:91:4-95:3)	-
+1499342522.593443	violation	protocol	LDAP_TCP	C4sDlY31zwTNs6sPXj	-	192.168.10.9	1060	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:91:4-95:3)	-
+1499342549.039518	violation	protocol	LDAP_TCP	CzGHDA29SdpYenx3V5	-	192.168.10.50	32918	192.168.10.3	3268	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499342549.062611	violation	protocol	LDAP_TCP	CfiLHT2uPZtXeYLCN7	-	192.168.10.50	33930	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499342624.616063	violation	protocol	LDAP_TCP	CqlBjh42CxLQFMqXBk	-	192.168.10.5	49204	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:91:4-95:3)	-
+1499342624.620961	violation	protocol	LDAP_TCP	CWS6Iz2STSG8lLzba5	-	192.168.10.5	49206	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:91:4-95:3)	-
+1499342627.185584	violation	protocol	LDAP_TCP	COOEmY2CeUiZVv18mi	-	192.168.10.5	49208	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:91:4-95:3)	-
+1499342650.863669	violation	protocol	LDAP_TCP	CenfIE4BrjLO1g6DBb	-	192.168.10.17	36928	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499342650.920347	violation	protocol	LDAP_TCP	Ct6BvU2t0eZUOkK8ld	-	192.168.10.17	36930	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499342652.519359	violation	protocol	LDAP_TCP	CN7f0D3IYDsRhY82Kg	-	192.168.10.17	36936	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:91:4-95:3)	-
+1499342652.520444	violation	protocol	LDAP_TCP	CtnpTj311XHvYbDAx5	-	192.168.10.17	48855	192.168.10.3	3268	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499342671.547386	violation	protocol	LDAP_TCP	CzGrgX3XuvG9Zivtqg	-	192.168.10.25	49153	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499342677.408559	violation	protocol	LDAP_TCP	CaQH631tP4xPrnWzX6	-	192.168.10.25	49155	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499342677.962744	violation	protocol	LDAP_TCP	C5jjq43mab8XkxYVd5	-	192.168.10.25	49157	192.168.10.3	3268	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499342678.768487	violation	protocol	LDAP_TCP	CaXQ6x2vVciTPo3Cjk	-	192.168.10.25	49158	192.168.10.3	389	expecting 1 bytes for unpacking value (0 bytes available) (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:91:4-95:3)	0\x18\x02\x01\x03`\x13\x02\x01\x03\x04\x00\xa3\x0c\x04\x0aGSS-SPNEGO
+1499342678.815857	violation	protocol	LDAP_TCP	CgyePM14wRrn8QNN89	-	192.168.10.25	49159	192.168.10.3	389	expecting 1 bytes for unpacking value (0 bytes available) (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:91:4-95:3)	0\x18\x02\x01\x03`\x13\x02\x01\x03\x04\x00\xa3\x0c\x04\x0aGSS-SPNEGO
+1499342706.909161	violation	protocol	LDAP_TCP	C5w1jh1n8pVkc8ifZ1	-	192.168.10.25	49160	192.168.10.3	3268	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499342706.919075	violation	protocol	LDAP_TCP	C42Nl02gIfB36Tguq9	-	192.168.10.25	49161	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499342712.296724	violation	protocol	LDAP_TCP	Cw5g6z4lgPWFT3pH87	-	192.168.10.8	49194	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:91:4-95:3)	-
+1499342799.387899	violation	protocol	LDAP_TCP	CGSPXp2mV9GT4pAptf	-	192.168.10.15	49500	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:91:4-95:3)	-
+1499342799.947739	violation	protocol	LDAP_TCP	Cfyt164QGpPm8okO44	-	192.168.10.15	49501	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:91:4-95:3)	-
+1499342978.203057	violation	protocol	LDAP_TCP	C2IDo72Dr0bOCjLCTf	-	192.168.10.16	58724	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499342979.278950	violation	protocol	LDAP_TCP	Chweei4E9tIm0ogzCc	-	192.168.10.16	34900	192.168.10.3	3268	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499342984.306709	violation	protocol	LDAP_TCP	CyCBbjLDBHwf5yks4	-	192.168.10.16	58734	192.168.10.3	389	expecting 1 bytes for unpacking value (0 bytes available) (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:91:4-95:3)	0\x18\x02\x01\x03`\x13\x02\x01\x03\x04\x00\xa3\x0c\x04\x0aGSS-SPNEGO
+1499343059.690990	violation	protocol	LDAP_TCP	C5lMygGk98teSb6Aj	-	192.168.10.25	49196	192.168.10.3	3268	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499343059.711581	violation	protocol	LDAP_TCP	CgOPOA1j3jgB4Wn9Pk	-	192.168.10.25	49197	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499343219.424845	violation	protocol	LDAP_TCP	Ck1qCU8H4MjCRrwM3	-	192.168.10.12	35060	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499343219.441781	violation	protocol	LDAP_TCP	CJg4S5Frgto1ct222	-	192.168.10.12	35064	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499343329.217076	violation	protocol	LDAP_TCP	C4JgR02Fl3JToEWUa4	-	192.168.10.25	49201	192.168.10.3	3268	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499343329.235735	violation	protocol	LDAP_TCP	Cg0MNP3aaXd0fBevUd	-	192.168.10.25	49202	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499343445.696258	violation	protocol	LDAP_TCP	CTAx313SUh3AWBjFDl	-	192.168.10.50	32950	192.168.10.3	3268	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499343445.729169	violation	protocol	LDAP_TCP	CUDtCGGyfJzMyXV9e	-	192.168.10.50	33964	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499343596.021337	violation	protocol	LDAP_TCP	CocCBv1hzoOThIQgS9	-	192.168.10.50	34018	192.168.10.3	389	expecting 1 bytes for unpacking value (0 bytes available) (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:91:4-95:3)	0\x18\x02\x01\x03`\x13\x02\x01\x03\x04\x00\xa3\x0c\x04\x0aGSS-SPNEGO
+1499343599.212238	violation	protocol	LDAP_TCP	CsfxEv2WzHztpqbuod	-	192.168.10.25	49215	192.168.10.3	3268	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499343599.231076	violation	protocol	LDAP_TCP	CxqVdx4Vsk6EDM8Qvd	-	192.168.10.25	49216	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499343869.212611	violation	protocol	LDAP_TCP	CE8pz33lzhD6SEmXJ7	-	192.168.10.25	49360	192.168.10.3	3268	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499343869.231870	violation	protocol	LDAP_TCP	CXGuIL27ufw1PZLyhl	-	192.168.10.25	49361	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499344139.548157	violation	protocol	LDAP_TCP	C2wosW2pFyeO1jVfm8	-	192.168.10.25	49365	192.168.10.3	3268	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499344139.574915	violation	protocol	LDAP_TCP	C8WDoM3tDRgZ7p7jbd	-	192.168.10.25	49366	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499344159.956364	violation	protocol	LDAP_TCP	CfNlUi4SE2IRZr5Fy1	-	192.168.10.14	59609	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499344160.063086	violation	protocol	LDAP_TCP	C4yjSf1L0KvO3S60M6	-	192.168.10.14	59610	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:91:4-95:3)	-
+1499344262.512455	violation	protocol	LDAP_TCP	Cf3gQ82kG4NBMH0pvh	-	192.168.10.25	49392	192.168.10.3	3268	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499344262.532365	violation	protocol	LDAP_TCP	CelQcs22e3v5KnjAq3	-	192.168.10.25	49393	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499344288.643607	violation	protocol	LDAP_TCP	CSmUiA1OemgPtaTth7	-	192.168.10.19	45111	192.168.10.3	3268	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499344288.658506	violation	protocol	LDAP_TCP	CLl3FdJr7B73aIJOk	-	192.168.10.19	33146	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499344344.931445	violation	protocol	LDAP_TCP	CRdXzLNcDNVA0jpUd	-	192.168.10.50	39034	192.168.10.3	3268	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499344344.971861	violation	protocol	LDAP_TCP	Cee4nD1rjdBmmtchL7	-	192.168.10.50	40048	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499344409.199386	violation	protocol	LDAP_TCP	C1JDsR0LUHldXVK0l	-	192.168.10.25	49396	192.168.10.3	3268	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499344409.217783	violation	protocol	LDAP_TCP	CdeQC54xVt0D6CcRqa	-	192.168.10.25	49397	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:91:4-95:3)	-
+1499344544.672444	violation	protocol	LDAP_TCP	CpRdbo3aQXasYOCLLh	-	192.168.10.25	49440	192.168.10.3	3268	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499344544.705139	violation	protocol	LDAP_TCP	CYfWdp28kxkRKtcCtc	-	192.168.10.25	49441	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499344679.639854	violation	protocol	LDAP_TCP	Cj4Rxg2tKAEWsMZNZ6	-	192.168.10.25	49545	192.168.10.3	3268	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499344679.660092	violation	protocol	LDAP_TCP	CvspxQ32PR5HGkoi4a	-	192.168.10.25	49546	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499344814.200331	violation	protocol	LDAP_TCP	Cmsm4e20KqmWKQVuDa	-	192.168.10.25	49550	192.168.10.3	3268	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499344814.219383	violation	protocol	LDAP_TCP	Cas7eM1d4NJEBDFdl2	-	192.168.10.25	49551	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499344949.195069	violation	protocol	LDAP_TCP	CMfdMg9OEKXZXjIZe	-	192.168.10.25	49555	192.168.10.3	3268	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499344949.213586	violation	protocol	LDAP_TCP	CwaZpg4WRRXSLYzLLk	-	192.168.10.25	49556	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499345084.200201	violation	protocol	LDAP_TCP	CvjmVC1mfDMWoIJeU7	-	192.168.10.25	49558	192.168.10.3	3268	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499345084.219482	violation	protocol	LDAP_TCP	CtLAAt4jLosqE0VmU8	-	192.168.10.25	49559	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499345219.193881	violation	protocol	LDAP_TCP	CCKeaG23XUGse8ZPx2	-	192.168.10.25	49562	192.168.10.3	3268	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499345219.212920	violation	protocol	LDAP_TCP	CSliou1K1gaOsUuyPj	-	192.168.10.25	49563	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499345240.243675	violation	protocol	LDAP_TCP	CISlYd3ScNJR7OKE2g	-	192.168.10.50	47514	192.168.10.3	3268	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499345240.268384	violation	protocol	LDAP_TCP	CuzEyF3jxUhMu8BtV3	-	192.168.10.50	48528	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499345354.192495	violation	protocol	LDAP_TCP	CjpP4z3idX9n7ZbfPf	-	192.168.10.25	49568	192.168.10.3	3268	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499345354.216603	violation	protocol	LDAP_TCP	CT9lL84Gi1VM7PBTs6	-	192.168.10.25	49569	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499345489.537637	violation	protocol	LDAP_TCP	CCJinZ3s4b8yuohRB7	-	192.168.10.25	49572	192.168.10.3	3268	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499345489.558717	violation	protocol	LDAP_TCP	C9HA7s15qXghPBazh	-	192.168.10.25	49573	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499345624.197129	violation	protocol	LDAP_TCP	Caf70g2Ozq6vP656V3	-	192.168.10.25	49582	192.168.10.3	3268	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499345624.214873	violation	protocol	LDAP_TCP	C8pSy14ZpZmFHoeV77	-	192.168.10.25	49583	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499345759.709320	violation	protocol	LDAP_TCP	CMywCD43LECn6LjH71	-	192.168.10.25	49606	192.168.10.3	3268	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499345759.728736	violation	protocol	LDAP_TCP	CyhF2O1qJGP1VcOKTe	-	192.168.10.25	49607	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499345894.294890	violation	protocol	LDAP_TCP	CZxNFe1b5dVvsspQ65	-	192.168.10.25	49664	192.168.10.3	3268	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499345894.314477	violation	protocol	LDAP_TCP	CqHD074jUgNXhc2MY7	-	192.168.10.25	49665	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499345961.919325	violation	protocol	LDAP_TCP	C1VUzs2pKxXWNsc3Ic	-	192.168.10.19	34115	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499345961.920784	violation	protocol	LDAP_TCP	CqIaGJvcgEdLTjNW5	-	192.168.10.19	46083	192.168.10.3	3268	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499346029.192412	violation	protocol	LDAP_TCP	CPN6Zl1Sk06crF5r0g	-	192.168.10.25	49669	192.168.10.3	3268	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499346029.535144	violation	protocol	LDAP_TCP	Cp9gF74FRzgNbWkhy6	-	192.168.10.25	49670	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499346081.402942	violation	protocol	LDAP_TCP	CIuLOZ225YZH4Mddbi	-	192.168.10.17	50659	192.168.10.3	3268	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499346081.402980	violation	protocol	LDAP_TCP	C9DpFx4QhloF3ZuOe2	-	192.168.10.17	38740	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499346233.297116	violation	protocol	LDAP_TCP	CobgJ84Oas4LD8OXck	-	192.168.10.25	49778	192.168.10.3	3268	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499346233.319244	violation	protocol	LDAP_TCP	C4xc6A1OR4u0hycNW7	-	192.168.10.25	49779	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499346263.490398	violation	protocol	DNP3_UDP	CnAmvx175D7CvYwy18	-	192.168.10.14	60660	192.168.10.3	53	broken_checksum	-
+1499346494.993652	violation	protocol	LDAP_TCP	CeIjv46KqxhULKKY7	-	192.168.10.16	60402	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499346494.993669	violation	protocol	LDAP_TCP	CkLKPQ2VByu3GkSMj8	-	192.168.10.16	36574	192.168.10.3	3268	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499346570.099525	violation	protocol	LDAP_TCP	C2v5voRh5ogKTUzTc	-	192.168.10.25	49782	192.168.10.3	3268	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499346570.122851	violation	protocol	LDAP_TCP	CfQrKb4cbajlGxxDwj	-	192.168.10.25	49783	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499346571.389015	violation	protocol	LDAP_TCP	CZMQyMcWCLmKCoF3	-	192.168.10.12	36606	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499346571.389062	violation	protocol	LDAP_TCP	CJwwC21QrlQv18pueg	-	192.168.10.12	36498	192.168.10.3	3268	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499346865.089066	violation	protocol	LDAP_TCP	CgY2iQ1Tryj6fuy6nf	-	192.168.10.14	60271	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499346865.199053	violation	protocol	LDAP_TCP	CYLJul1KT42S3LtVaj	-	192.168.10.14	60272	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:91:4-95:3)	-
+1499347109.272529	violation	protocol	LDAP_TCP	CIFaBe3cTmTltGrlua	-	192.168.10.25	49860	192.168.10.3	3268	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499347109.291823	violation	protocol	LDAP_TCP	CUJViyH8vnnk0tNT	-	192.168.10.25	49861	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499347234.244098	violation	protocol	LDAP_TCP	CoGM1A1a2d4rK0U2cc	-	192.168.10.25	49974	192.168.10.3	3268	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499347234.263611	violation	protocol	LDAP_TCP	CX69ZL3rFFP5Q76QP3	-	192.168.10.25	49975	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499347412.633224	violation	protocol	LDAP_TCP	CPV7gb1GNcMxVTOSFj	-	192.168.10.25	49986	192.168.10.3	3268	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499347412.654819	violation	protocol	LDAP_TCP	Cr2TFk2sERloOEIvYl	-	192.168.10.25	49987	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499347649.156882	violation	protocol	LDAP_TCP	C6ERahgi5V5Zuiv5i	-	192.168.10.25	49997	192.168.10.3	3268	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499347649.175059	violation	protocol	LDAP_TCP	C8heQD3CnAb3xPirlc	-	192.168.10.25	49998	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499348189.925159	violation	protocol	LDAP_TCP	CLMJR81rDRV3OMO9Oj	-	192.168.10.25	50084	192.168.10.3	3268	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499348189.950149	violation	protocol	LDAP_TCP	CAnKVC3FJH6Esyokr8	-	192.168.10.25	50085	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499348248.813748	violation	protocol	LDAP_TCP	C58fBX2rQkEJwMENOh	-	192.168.10.5	50906	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:91:4-95:3)	-
+1499348248.924949	violation	protocol	LDAP_TCP	CGcbyc3QsZQ6hzvdxe	-	192.168.10.5	50907	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:91:4-95:3)	-
+1499348311.959801	violation	protocol	LDAP_TCP	CE4Yak2PCnkF1cwxxb	-	192.168.10.25	50141	192.168.10.3	3268	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499348311.981546	violation	protocol	LDAP_TCP	CoWXhm48rjXqck4KP7	-	192.168.10.25	50142	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499348459.256635	violation	protocol	LDAP_TCP	CkRFvC39Xy3mCbsFP3	-	192.168.10.25	50151	192.168.10.3	3268	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499348459.276350	violation	protocol	LDAP_TCP	CJ5XSc3bcUqhTxhgqh	-	192.168.10.25	50152	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499348500.029432	violation	protocol	LDAP_TCP	C7O534JhsNCTtvCh6	-	192.168.10.15	53744	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:91:4-95:3)	-
+1499348500.137363	violation	protocol	LDAP_TCP	Cz89MfIqA5UPgqd81	-	192.168.10.15	53745	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:91:4-95:3)	-
+1499348642.499650	violation	protocol	LDAP_TCP	C8gpkm2p7hZVGfiHAj	-	192.168.10.9	2887	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:91:4-95:3)	-
+1499348642.607357	violation	protocol	LDAP_TCP	CbhzLy4qoQIBFCs2G4	-	192.168.10.9	2890	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:91:4-95:3)	-
+1499348729.129787	violation	protocol	LDAP_TCP	Cwgm3s1Wq2ZG9SQhO2	-	192.168.10.25	50156	192.168.10.3	3268	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499348729.148403	violation	protocol	LDAP_TCP	CQmhLB13ppgLzmwOq8	-	192.168.10.25	50157	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499348900.819099	violation	protocol	LDAP_TCP	CbCDXrlltzDWzAhKg	-	192.168.10.15	53958	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:91:4-95:3)	-
+1499348900.992670	violation	protocol	LDAP_TCP	CFcx6028s1I1FLFYwe	-	192.168.10.15	53959	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:91:4-95:3)	-
+1499348925.216583	violation	protocol	LDAP_TCP	CZO2Rl4ciA9LQQ64J7	-	192.168.10.5	51032	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:91:4-95:3)	-
+1499348925.326508	violation	protocol	LDAP_TCP	CDPwSg4KhpFHVMzyFf	-	192.168.10.5	51033	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:91:4-95:3)	-
+1499348999.178243	violation	protocol	LDAP_TCP	C88gYU340DBWK1INP	-	192.168.10.25	50160	192.168.10.3	3268	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499348999.196583	violation	protocol	LDAP_TCP	CVdCeQ1tmrainO42A4	-	192.168.10.25	50161	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499349076.554680	violation	protocol	LDAP_TCP	CSpmRs25PhJM1tk8E4	-	192.168.10.8	50528	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:91:4-95:3)	-
+1499349257.155220	violation	protocol	DNP3_UDP	CsWtTU3JHstpJ4ESE5	-	192.168.10.8	60882	192.168.10.3	53	broken_checksum	-
+1499349269.203987	violation	protocol	LDAP_TCP	CbUzm73XovHOjkPUue	-	192.168.10.25	50165	192.168.10.3	3268	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499349269.222780	violation	protocol	LDAP_TCP	CAoQVJibpacAFFOG9	-	192.168.10.25	50166	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499349303.657598	violation	protocol	LDAP_TCP	Cl8at04MRFLVSr1TT4	-	192.168.10.9	2936	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:91:4-95:3)	-
+1499349303.664342	violation	protocol	LDAP_TCP	CNxIGCmOYOY6FuyFd	-	192.168.10.9	2937	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:91:4-95:3)	-
+1499349361.949951	violation	protocol	LDAP_TCP	Cb6Taq5l7dRWA4mza	-	192.168.10.19	34655	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499349361.950066	violation	protocol	LDAP_TCP	CVZFKj4vaTpNUS9SK6	-	192.168.10.19	46623	192.168.10.3	3268	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499349481.432232	violation	protocol	LDAP_TCP	CVa6dG1C0O0NW01FP3	-	192.168.10.17	39271	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499349481.432251	violation	protocol	LDAP_TCP	CeATVQkKksqSjq9eg	-	192.168.10.17	51190	192.168.10.3	3268	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499349539.106101	violation	protocol	LDAP_TCP	CsZEqCngYYHFFBzJj	-	192.168.10.25	50172	192.168.10.3	3268	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499349539.129436	violation	protocol	LDAP_TCP	CxPg2043akLmJrTLd2	-	192.168.10.25	50173	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499349555.311631	violation	protocol	LDAP_TCP	CCEAA33aS5wBCmwTp9	-	192.168.10.8	51080	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:91:4-95:3)	-
+1499349555.421167	violation	protocol	LDAP_TCP	C7tOr538ZQgnK9O7Df	-	192.168.10.8	51081	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:91:4-95:3)	-
+1499349809.673295	violation	protocol	LDAP_TCP	CzUoNh17uKZ8Wq7TS5	-	192.168.10.25	50178	192.168.10.3	3268	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499349809.694436	violation	protocol	LDAP_TCP	CP77UJU4WfCQQ42G9	-	192.168.10.25	50179	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499349895.029868	violation	protocol	LDAP_TCP	CLfOrqKinezJ8ljF3	-	192.168.10.16	33566	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:91:4-95:3)	-
+1499349895.031607	violation	protocol	LDAP_TCP	C2yTo7Y923WNr5UDl	-	192.168.10.16	33570	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499349895.033379	violation	protocol	LDAP_TCP	Cv1eVk3O86R7drCHoj	-	192.168.10.16	37974	192.168.10.3	3268	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499349915.668533	violation	protocol	LDAP_TCP	Cq6oJF1TIoD22JqK88	-	192.168.10.25	50182	192.168.10.3	3268	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499349915.690348	violation	protocol	LDAP_TCP	C5XnV71NAx82aE8Jvk	-	192.168.10.25	50183	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499349971.424507	violation	protocol	LDAP_TCP	CE1w4O27oF0dfhVGmb	-	192.168.10.12	39066	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499349971.424556	violation	protocol	LDAP_TCP	CdOQa92cs5y6K56fl6	-	192.168.10.12	38958	192.168.10.3	3268	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499350040.493814	violation	protocol	LDAP_TCP	CFfKNs2bJsUuV2vur9	-	192.168.10.25	50185	192.168.10.3	3268	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499350040.513617	violation	protocol	LDAP_TCP	Cbt2Ry2qhK9ngopv48	-	192.168.10.25	50186	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499350099.901293	violation	protocol	LDAP_TCP	CtzsyBlhBMmGf5zXa	-	192.168.10.14	62054	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:91:4-95:3)	-
+1499350100.009375	violation	protocol	LDAP_TCP	C0aE9b4PGdI9Jr7Lfd	-	192.168.10.14	62055	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:91:4-95:3)	-
+1499350178.400774	violation	protocol	LDAP_TCP	CsOTEw30VEZjYtccI6	-	192.168.10.25	50256	192.168.10.3	3268	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499350178.420667	violation	protocol	LDAP_TCP	CKVsW65GnhLI3Vngl	-	192.168.10.25	50257	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499350502.988080	violation	protocol	LDAP_TCP	CoVGmWWhRBLUEE0Z7	-	192.168.10.25	50269	192.168.10.3	3268	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499350503.008720	violation	protocol	LDAP_TCP	CbqQrf2renhs7pBaD8	-	192.168.10.25	50270	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499350734.282155	violation	protocol	LDAP_TCP	CxivFP2THTDAC7eCRa	-	192.168.10.25	50313	192.168.10.3	3268	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499350734.302571	violation	protocol	LDAP_TCP	CcsfFK2pgcTMm5IGj4	-	192.168.10.25	50314	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499350871.995439	violation	protocol	LDAP_TCP	CYqk9f2tLKI2QFTsye	-	192.168.10.25	50380	192.168.10.3	3268	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499350872.021163	violation	protocol	LDAP_TCP	CFhmSv3rYOOq42lwre	-	192.168.10.25	50381	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499351197.059547	violation	protocol	LDAP_TCP	CP0Qwi2vWsc5GrfkMc	-	192.168.10.25	50387	192.168.10.3	3268	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499351197.080318	violation	protocol	LDAP_TCP	CZoKaT1HonN6CE5YJ4	-	192.168.10.25	50388	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499351429.885703	violation	protocol	LDAP_TCP	CSGqck2yfL24ZmOugj	-	192.168.10.25	50392	192.168.10.3	3268	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499351429.904387	violation	protocol	LDAP_TCP	CbfXKBnvkOImIeC67	-	192.168.10.25	50393	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499351752.231759	violation	protocol	LDAP_TCP	CLZeFg3BSZgMlrRNXd	-	192.168.10.25	50399	192.168.10.3	3268	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499351752.252164	violation	protocol	LDAP_TCP	CmRlKR1MABwz53LKX1	-	192.168.10.25	50400	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499351980.299267	violation	protocol	LDAP_TCP	CC7OkU1lRPGPqywxzl	-	192.168.10.25	50484	192.168.10.3	3268	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499351980.318046	violation	protocol	LDAP_TCP	CFIiei4AUJbt10doJk	-	192.168.10.25	50485	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499352091.347027	violation	protocol	LDAP_TCP	C9w6K52LCsUWJ8NWJj	-	192.168.10.25	50519	192.168.10.3	3268	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499352091.374589	violation	protocol	LDAP_TCP	Cnqxin1mW8IPXNNG5j	-	192.168.10.25	50520	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499352228.404859	violation	protocol	LDAP_TCP	CeOBP62OIjfvrtfPXi	-	192.168.10.25	50609	192.168.10.3	3268	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499352228.420907	violation	protocol	LDAP_TCP	CVcUIk36Ee8pwFrd	-	192.168.10.25	50610	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499352356.462925	violation	protocol	LDAP_TCP	CXiSSaO4w3jIfK6N8	-	192.168.10.25	50640	192.168.10.3	3268	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499352356.481687	violation	protocol	LDAP_TCP	Cvmf6y21paOmclPRXf	-	192.168.10.25	50641	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499352468.465070	violation	protocol	LDAP_TCP	Cw5IS41SI9oLxvD9t7	-	192.168.10.25	50669	192.168.10.3	3268	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499352468.483603	violation	protocol	LDAP_TCP	CVLLCW2TyZetaLjl8	-	192.168.10.25	50670	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499352596.483195	violation	protocol	LDAP_TCP	CkB4HL2aFKv7Le2EAg	-	192.168.10.25	50701	192.168.10.3	3268	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499352596.504785	violation	protocol	LDAP_TCP	CZNKRa3h7OJywYWV5	-	192.168.10.25	50702	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499352689.908229	violation	protocol	DNP3_UDP	C1SjG64Alcql5efpKk	-	192.168.10.9	63427	192.168.10.3	53	broken_checksum	-
+1499352724.151769	violation	protocol	LDAP_TCP	CaDv4d2yzXmKdkv5Pg	-	192.168.10.25	50731	192.168.10.3	3268	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499352724.170737	violation	protocol	LDAP_TCP	CTdbSpjgX1UWm4bdk	-	192.168.10.25	50732	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499352761.974422	violation	protocol	LDAP_TCP	ChBdPa3akNuhe1a1T2	-	192.168.10.19	35323	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499352761.974502	violation	protocol	LDAP_TCP	C9ptzp2pMcW34NSUnd	-	192.168.10.19	47291	192.168.10.3	3268	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499352852.554227	violation	protocol	LDAP_TCP	COObAe3EXkckSDREng	-	192.168.10.25	50888	192.168.10.3	3268	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499352852.573595	violation	protocol	LDAP_TCP	C3WZIU3MINVcdW2mp6	-	192.168.10.25	50889	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499352881.469796	violation	protocol	LDAP_TCP	C9Bxfc1eIuWSSjyQmc	-	192.168.10.17	40095	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499352881.471888	violation	protocol	LDAP_TCP	CFo33S2tAqK9YOJJK	-	192.168.10.17	52014	192.168.10.3	3268	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499353048.546239	violation	protocol	LDAP_TCP	CbC9xjBIOrgNXDrt6	-	192.168.10.25	50920	192.168.10.3	3268	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499353048.565547	violation	protocol	LDAP_TCP	C6DFXO24bSf7K7L8Ea	-	192.168.10.25	50921	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499353295.072004	violation	protocol	LDAP_TCP	CZNg1lDq2kNo89wG	-	192.168.10.16	35488	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499353295.072135	violation	protocol	LDAP_TCP	CIQCS5nVsZ1iSfx7h	-	192.168.10.16	39892	192.168.10.3	3268	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499353371.459480	violation	protocol	LDAP_TCP	CxYpLO1y6dqGjhpqVc	-	192.168.10.12	40304	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499353371.461810	violation	protocol	LDAP_TCP	Cp6RzRxHQwIlScE78	-	192.168.10.12	40196	192.168.10.3	3268	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499353432.342894	violation	protocol	LDAP_TCP	C2hq3N2c9MM9od7Ekb	-	192.168.10.25	50981	192.168.10.3	3268	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499353432.366804	violation	protocol	LDAP_TCP	C8CEm42CN0qLGASxLe	-	192.168.10.25	50982	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499353781.618576	violation	protocol	LDAP_TCP	COrPKI3zDdNioqTYUa	-	192.168.10.25	50985	192.168.10.3	3268	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499353781.635418	violation	protocol	LDAP_TCP	CuwwKI13GDDIaHZiG1	-	192.168.10.25	50986	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499353944.976946	violation	protocol	LDAP_TCP	CZdxva3jiIGGqJdMS3	-	192.168.10.14	62849	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:91:4-95:3)	-
+1499353945.085002	violation	protocol	LDAP_TCP	C90dJW2wdn5oFV4VTf	-	192.168.10.14	62850	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:91:4-95:3)	-
+1499354010.818527	violation	protocol	LDAP_TCP	CYrxWv405df0DLvUi6	-	192.168.10.5	53083	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:91:4-95:3)	-
+1499354010.929028	violation	protocol	LDAP_TCP	CekYJ3rWrPs2DLLXg	-	192.168.10.5	53084	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:91:4-95:3)	-
+1499354201.255604	violation	protocol	LDAP_TCP	CXc4RONdpDAWQqcXc	-	192.168.10.15	55238	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:91:4-95:3)	-
+1499354201.363396	violation	protocol	LDAP_TCP	CqSbOU3qz5unociVN6	-	192.168.10.15	55239	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:91:4-95:3)	-
+1499354523.590452	violation	protocol	LDAP_TCP	C46wFA2pB43R7E3Vlc	-	192.168.10.9	4802	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:91:4-95:3)	-
+1499354523.697584	violation	protocol	LDAP_TCP	CBhJfR1HtjTAErR4xc	-	192.168.10.9	4805	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:91:4-95:3)	-
+1499354839.439855	violation	protocol	LDAP_TCP	CqLGqVuy0tUxYbuaf	-	192.168.10.8	52255	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:91:4-95:3)	-
+1499355226.171547	violation	protocol	LDAP_TCP	C1lbTo4T8WVnCCyAy5	-	192.168.10.5	53410	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:91:4-95:3)	-
+1499355226.280852	violation	protocol	LDAP_TCP	CHHpoy2lw4KVGGyne3	-	192.168.10.5	53411	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:91:4-95:3)	-
+1499355322.892572	violation	protocol	LDAP_TCP	C0kkhb3lzBynJuvbtb	-	192.168.10.15	55292	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:91:4-95:3)	-
+1499355323.006034	violation	protocol	LDAP_TCP	CdDcLp4piL12LGD9v4	-	192.168.10.15	55293	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:91:4-95:3)	-
+1499355379.528843	violation	protocol	LDAP_TCP	Cow3ga3D8oW4v7Aq6f	-	192.168.10.8	52279	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:91:4-95:3)	-
+1499355379.638285	violation	protocol	LDAP_TCP	CqthAB1XYdml81aaM1	-	192.168.10.8	52280	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:91:4-95:3)	-
+1499355424.750002	violation	protocol	LDAP_TCP	CIsbKWxH3DAlE2Glb	-	192.168.10.9	4819	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:91:4-95:3)	-
+1499355424.756573	violation	protocol	LDAP_TCP	Cp3vqCTWpBMA755X3	-	192.168.10.9	4820	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:91:4-95:3)	-
+1499356039.831064	violation	protocol	LDAP_TCP	C9DAun2uWyDcAQ882l	-	192.168.10.14	63187	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:91:4-95:3)	-
+1499356039.939180	violation	protocol	LDAP_TCP	CoiflD3lAzBls9uHyb	-	192.168.10.14	63188	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:91:4-95:3)	-
+1499356162.003619	violation	protocol	LDAP_TCP	CiC8Ag1GpLwFb393i	-	192.168.10.19	36479	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499356162.003624	violation	protocol	LDAP_TCP	CPLBuV1IIwjGhrJ0a9	-	192.168.10.19	48447	192.168.10.3	3268	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499356281.505504	violation	protocol	LDAP_TCP	C5ydgL2qnyHBAyArjb	-	192.168.10.17	40319	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499356281.505578	violation	protocol	LDAP_TCP	C5KNmo2mIMM3xLDWWd	-	192.168.10.17	52238	192.168.10.3	3268	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:91:4-95:3)	-
+1499356695.102951	violation	protocol	LDAP_TCP	CJV0Mq3NY8ZENiEDij	-	192.168.10.16	35926	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:91:4-95:3)	-
+1499356695.104212	violation	protocol	LDAP_TCP	CPwzJw2dOkfbx8XK09	-	192.168.10.16	35928	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499356695.106305	violation	protocol	LDAP_TCP	CbQfR54nEa1SQg4Xld	-	192.168.10.16	40332	192.168.10.3	3268	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499356771.491719	violation	protocol	LDAP_TCP	CFFUsl1bJr6yczOmue	-	192.168.10.12	41092	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:91:4-95:3)	-
+1499356771.493047	violation	protocol	LDAP_TCP	Cp3cSXEcqudmCpMY	-	192.168.10.12	41094	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499356771.493053	violation	protocol	LDAP_TCP	CVDnOA3qTDQMoJeQI1	-	192.168.10.12	40986	192.168.10.3	3268	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499358378.785714	violation	protocol	HTTP	CetYUr1sUo1rCdswK1	-	192.168.10.14	63848	210.210.179.104	80	not a http reply line	-
+1499358378.788382	violation	protocol	HTTP	C1q7Bt4e4dv0KDt8Uj	-	192.168.10.14	63847	210.210.179.104	80	not a http reply line	-
+1499359371.496724	violation	protocol	DNP3_UDP	C6pWi122AFhnYEuNcf	-	192.168.10.12	20826	192.168.10.3	53	broken_checksum	-
+1499359562.043905	violation	protocol	LDAP_TCP	C3dOA73wGdApRLMxXj	-	192.168.10.19	37567	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:91:4-95:3)	-
+1499359562.044831	violation	protocol	LDAP_TCP	CjExek3T3P72AY2zvk	-	192.168.10.19	37568	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:91:4-95:3)	-
+1499359562.047187	violation	protocol	LDAP_TCP	C1Gb02149eDycrP3O9	-	192.168.10.19	37569	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499359562.048516	violation	protocol	LDAP_TCP	Ccjs9y35UIjQwvYJwf	-	192.168.10.19	49537	192.168.10.3	3268	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499359681.535781	violation	protocol	LDAP_TCP	Cz8oSK2twYGv2gqa8c	-	192.168.10.17	40906	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:91:4-95:3)	-
+1499359681.537130	violation	protocol	LDAP_TCP	CPaQNw4OMatdRplkA7	-	192.168.10.17	40908	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499359681.537233	violation	protocol	LDAP_TCP	CyK7oK2VazsNQbb1Mk	-	192.168.10.17	52827	192.168.10.3	3268	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499359770.788760	violation	protocol	LDAP_TCP	CloFug3YDeoUw7UOIi	-	192.168.10.5	54265	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:91:4-95:3)	-
+1499359770.896749	violation	protocol	LDAP_TCP	C8XjMt33skj9aOhnec	-	192.168.10.5	54266	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:91:4-95:3)	-
+1499359816.399377	violation	protocol	LDAP_TCP	CD8WFz2vj7ZpqRvKn5	-	192.168.10.25	51005	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499359823.876970	violation	protocol	LDAP_TCP	CjthUbFDpTsuAtSj	-	192.168.10.25	51007	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499359824.132382	violation	protocol	LDAP_TCP	C2JQkG4tcGk30hvEbe	-	192.168.10.25	51008	192.168.10.3	3268	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499359824.950246	violation	protocol	LDAP_TCP	CPcxHA3yWe5vWD3Qe6	-	192.168.10.25	51009	192.168.10.3	389	expecting 1 bytes for unpacking value (0 bytes available) (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:91:4-95:3)	0\x18\x02\x01\x03`\x13\x02\x01\x03\x04\x00\xa3\x0c\x04\x0aGSS-SPNEGO
+1499359824.997460	violation	protocol	LDAP_TCP	CCPpbm9zwBRA8deR	-	192.168.10.25	51010	192.168.10.3	389	expecting 1 bytes for unpacking value (0 bytes available) (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:91:4-95:3)	0\x18\x02\x01\x03`\x13\x02\x01\x03\x04\x00\xa3\x0c\x04\x0aGSS-SPNEGO
+1499359901.318152	violation	protocol	LDAP_TCP	CTeJIn2uMvRrPYTMX4	-	192.168.10.15	57826	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:91:4-95:3)	-
+1499359901.425836	violation	protocol	LDAP_TCP	CXB6ew33o5ix5Bx398	-	192.168.10.15	57827	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:91:4-95:3)	-
+1499360095.148200	violation	protocol	LDAP_TCP	CfEWwKlBTQYrv0Qaa	-	192.168.10.16	38060	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499360095.153513	violation	protocol	LDAP_TCP	CHDBsv3umW7amhutbh	-	192.168.10.16	42464	192.168.10.3	3268	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499360171.529184	violation	protocol	LDAP_TCP	CJzztNiageLlVckH2	-	192.168.10.12	42954	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499360171.531062	violation	protocol	LDAP_TCP	ChIsP244wFJ1aGOQc	-	192.168.10.12	42846	192.168.10.3	3268	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499360234.086535	violation	protocol	LDAP_TCP	Cf5dYcP08Mlyfutif	-	192.168.10.25	51034	192.168.10.3	3268	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499360234.107610	violation	protocol	LDAP_TCP	CuWSFw4tmE1At40xN6	-	192.168.10.25	51035	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499360644.666993	violation	protocol	LDAP_TCP	C1tBn04QbtalL1nNXf	-	192.168.10.9	6113	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:91:4-95:3)	-
+1499360644.677683	violation	protocol	LDAP_TCP	CSqH1w3hacWkWka6p1	-	192.168.10.9	6115	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:91:4-95:3)	-
+1499361025.838232	violation	protocol	LDAP_TCP	CXhL6i3QbL6IVE3dYl	-	192.168.10.14	64897	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:91:4-95:3)	-
+1499361025.962217	violation	protocol	LDAP_TCP	CoB3Oi144a3UX7OM0k	-	192.168.10.14	64899	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:91:4-95:3)	-
+1499361116.750351	violation	protocol	LDAP_TCP	CWZ5HF3qgvn5Jk8CI5	-	192.168.10.25	51044	192.168.10.3	3268	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499361116.775288	violation	protocol	LDAP_TCP	COJE8W1MbFVBd3FUai	-	192.168.10.25	51045	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499361305.822351	violation	protocol	LDAP_TCP	C5xYXe32jBGMSK42H8	-	192.168.10.9	6345	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:91:4-95:3)	-
+1499361305.829320	violation	protocol	LDAP_TCP	CO2EIr25ACACNMNtQ6	-	192.168.10.9	6346	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:91:4-95:3)	-
+1499361367.811218	violation	protocol	LDAP_TCP	CnxuP4310fYgjF28X8	-	192.168.10.25	51048	192.168.10.3	3268	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499361367.831570	violation	protocol	LDAP_TCP	C99sQ03oq8KOaQFpbb	-	192.168.10.25	51049	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499361383.744971	violation	protocol	LDAP_TCP	CqLkXO1Uk8oIJUmJ1d	-	192.168.10.8	53738	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:91:4-95:3)	-
+1499361383.851215	violation	protocol	LDAP_TCP	ClwAPSA6YR5XRQ0Xh	-	192.168.10.8	53741	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:91:4-95:3)	-
+1499361443.666337	violation	protocol	LDAP_TCP	C97UwKDkDfRSGs516	-	192.168.10.8	53747	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:91:4-95:3)	-
+1499361526.225680	violation	protocol	LDAP_TCP	CBFqT437NI6JljeyL5	-	192.168.10.5	54567	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:91:4-95:3)	-
+1499361526.230119	violation	protocol	LDAP_TCP	CjAYKe4WWzfwAgZpbl	-	192.168.10.5	54568	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:91:4-95:3)	-
+1499361598.718670	violation	protocol	LDAP_TCP	C1WZHy2cw8D5BPGdgh	-	192.168.10.25	51055	192.168.10.3	3268	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499361598.741157	violation	protocol	LDAP_TCP	C5wwJM1z0dDv2gNHsi	-	192.168.10.25	51056	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499361742.803560	violation	protocol	LDAP_TCP	CJmWAN31veTAIL1CIb	-	192.168.10.15	58862	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:91:4-95:3)	-
+1499361742.927124	violation	protocol	LDAP_TCP	CtNrfk4aiVSlBHTsy6	-	192.168.10.15	58863	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:91:4-95:3)	-
+1499361787.511936	violation	protocol	LDAP_TCP	Ck02T23XNz63ErKaKa	-	192.168.10.25	51065	192.168.10.3	3268	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499361787.530899	violation	protocol	LDAP_TCP	CiJbVh1O3hr9UrAyV7	-	192.168.10.25	51066	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499361825.865988	violation	protocol	DNP3_UDP	CAqHup3454DAvqsdN6	-	192.168.10.5	65160	192.168.10.3	53	broken_checksum	-
+1499361979.741440	violation	protocol	LDAP_TCP	COslJY122vSVb6EJsa	-	192.168.10.14	64955	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:91:4-95:3)	-
+1499361979.746745	violation	protocol	LDAP_TCP	COhumu2lr2pliT2Ql	-	192.168.10.14	64956	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:91:4-95:3)	-
+1499362061.205351	violation	protocol	LDAP_TCP	CeVhE83l8oD0UxWd43	-	192.168.10.25	51071	192.168.10.3	3268	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499362061.224116	violation	protocol	LDAP_TCP	CeMoaj47WMxZILR5Pl	-	192.168.10.25	51072	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499362292.501333	violation	protocol	LDAP_TCP	CSYyF6g0hUYtENP31	-	192.168.10.25	51076	192.168.10.3	3268	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499362292.520347	violation	protocol	LDAP_TCP	CBmkuA1TePF5UjHOGf	-	192.168.10.25	51077	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499362422.485970	violation	protocol	DCE_RPC	CeLndb2BkNhCY58LDb	-	192.168.10.8	54767	192.168.10.5	135	Binpac exception: binpac exception: &enforce violation : DCE_RPC_Header:rpc_vers	-
+1499362422.503095	violation	protocol	DCE_RPC	Cfzv4f4K6V3WUxZiFj	-	192.168.10.8	54792	192.168.10.5	135	Binpac exception: binpac exception: &enforce violation : DCE_RPC_Header:rpc_vers	-
+1499362562.494871	violation	protocol	LDAP_TCP	C6jhxy1EbpKNp6SCs7	-	192.168.10.25	51082	192.168.10.3	3268	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499362562.518979	violation	protocol	LDAP_TCP	CK8B192CNJkzFmdtx5	-	192.168.10.25	51083	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499362686.748675	violation	protocol	LDAP_TCP	C5YwjH1yb7eVD2uN81	-	192.168.10.25	51134	192.168.10.3	3268	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499362686.765124	violation	protocol	LDAP_TCP	CQyj5TPJuDO6tVyvg	-	192.168.10.25	51135	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499362832.945419	violation	protocol	LDAP_TCP	C09DNM1py1IGAImb54	-	192.168.10.25	51138	192.168.10.3	3268	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499362832.964528	violation	protocol	LDAP_TCP	CGh5PB4QMzddEVnpo6	-	192.168.10.25	51139	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499362962.073314	violation	protocol	LDAP_TCP	CE5Bw82duNvyNnHoHk	-	192.168.10.19	50660	192.168.10.3	3268	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499362962.073341	violation	protocol	LDAP_TCP	CpiXLT3IRGCQP7xpA1	-	192.168.10.19	38692	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499363081.577489	violation	protocol	LDAP_TCP	CbkcOz39SIXZufrCWb	-	192.168.10.17	42347	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499363081.580545	violation	protocol	LDAP_TCP	CV9QjD13UE5aOHtZB3	-	192.168.10.17	54266	192.168.10.3	3268	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499363102.546274	violation	protocol	LDAP_TCP	CsffrkkOjPSXMqrAj	-	192.168.10.25	51148	192.168.10.3	3268	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499363102.566124	violation	protocol	LDAP_TCP	CKMFdY3g2JOKgKIcF6	-	192.168.10.25	51149	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499363290.987448	violation	protocol	LDAP_TCP	Cr9wcO1pO3Q27CWHZe	-	192.168.10.8	49163	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:91:4-95:3)	-
+1499363292.836991	violation	protocol	LDAP_TCP	C1ZBEh3Nl8sUnbDeAa	-	192.168.10.8	49168	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:91:4-95:3)	-
+1499363292.888221	violation	protocol	LDAP_TCP	ClNLhUQRj4mZAIvy5	-	192.168.10.8	49170	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:91:4-95:3)	-
+1499363297.835152	violation	protocol	LDAP_TCP	CeFknYY1yd8kFsCb5	-	192.168.10.25	51159	192.168.10.3	3268	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499363297.855319	violation	protocol	LDAP_TCP	CoQQHi3tOE7woZwM7l	-	192.168.10.25	51160	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499363300.202387	violation	protocol	LDAP_TCP	C1jBD5Ssi0BDJ54B1	-	192.168.10.8	49177	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:91:4-95:3)	-
+1499363300.219197	violation	protocol	LDAP_TCP	CZ5pcE4mbdM93hvG53	-	192.168.10.8	49178	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:91:4-95:3)	-
+1499363304.568727	violation	protocol	LDAP_TCP	CjBfdLeMcHCOLVyb2	-	192.168.10.8	49190	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:91:4-95:3)	-
+1499363391.116693	violation	protocol	LDAP_TCP	CfDOS84Lyo0SbcAE4e	-	192.168.10.8	49163	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:91:4-95:3)	-
+1499363392.303734	violation	protocol	LDAP_TCP	C1WaDD2wSDqsCd6iZe	-	192.168.10.8	49167	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:91:4-95:3)	-
+1499363392.316614	violation	protocol	LDAP_TCP	CBT7BL3QxhxHirzzR3	-	192.168.10.8	49169	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:91:4-95:3)	-
+1499363399.656857	violation	protocol	LDAP_TCP	CpVWMVcOEVikoNtFe	-	192.168.10.8	49176	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:91:4-95:3)	-
+1499363399.673931	violation	protocol	LDAP_TCP	C4yXI32lXRfPXshdye	-	192.168.10.8	49177	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:91:4-95:3)	-
+1499363406.986102	violation	protocol	LDAP_TCP	CiDg7h2b02FYn5icze	-	192.168.10.8	49189	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:91:4-95:3)	-
+1499363413.114155	violation	protocol	LDAP_TCP	CLIBN51PoRVVohaml6	-	192.168.10.25	51314	192.168.10.3	3268	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499363413.142640	violation	protocol	LDAP_TCP	Cu49km3vVC44R1QqX9	-	192.168.10.25	51316	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499363495.186702	violation	protocol	LDAP_TCP	CvpfGk3x1ZLpFXRGTd	-	192.168.10.16	39740	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:91:4-95:3)	-
+1499363495.188399	violation	protocol	LDAP_TCP	CRgVu82phlJfWcRQDj	-	192.168.10.16	44144	192.168.10.3	3268	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499363495.188545	violation	protocol	LDAP_TCP	CtvCyJ18JrEwFXh0Hd	-	192.168.10.16	39744	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499363571.569741	violation	protocol	LDAP_TCP	C0WR9p4G4rdRQqSNf	-	192.168.10.12	44560	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499363571.569749	violation	protocol	LDAP_TCP	C4Dujt2s4iZubKoy9g	-	192.168.10.12	44452	192.168.10.3	3268	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499363642.539454	violation	protocol	LDAP_TCP	Cok6ui7XLPihQrX25	-	192.168.10.25	51326	192.168.10.3	3268	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499363642.558516	violation	protocol	LDAP_TCP	C1znZDWIn9juoUHDd	-	192.168.10.25	51327	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499363816.188091	violation	protocol	LDAP_TCP	CcIEzeYyxINEZ4t67	-	192.168.10.25	51699	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499363816.216733	violation	protocol	LDAP_TCP	C3gofV3s1Tne7ZRoa3	-	192.168.10.25	51700	192.168.10.3	3268	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499364003.311895	violation	protocol	LDAP_TCP	C1nnIL3daF8jJrucY4	-	192.168.10.8	1042	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:91:4-95:3)	-
+1499364005.127297	violation	protocol	LDAP_TCP	CJCG4c11D34FbFC7Ze	-	192.168.10.8	1049	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:91:4-95:3)	-
+1499364007.732025	violation	protocol	LDAP_TCP	CmmmnFBzeaq5rcY93	-	192.168.10.8	1058	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:91:4-95:3)	-
+1499364012.999118	violation	protocol	LDAP_TCP	CJu7Ej4y0n9A9vlT9c	-	192.168.10.8	1069	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:91:4-95:3)	-
+1499364017.643510	violation	protocol	LDAP_TCP	CnMflr43spNiirKVK2	-	192.168.10.8	1086	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:91:4-95:3)	-
+1499364017.662774	violation	protocol	LDAP_TCP	C6RqjmzxyNUbnjH1c	-	192.168.10.8	1087	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:91:4-95:3)	-
+1499364182.476742	violation	protocol	LDAP_TCP	ClvEek34b59JNTzJ85	-	192.168.10.25	52451	192.168.10.3	3268	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499364182.495601	violation	protocol	LDAP_TCP	Czw5Ay2IOI3ICnLxaa	-	192.168.10.25	52452	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499364325.479652	violation	protocol	DCE_RPC	Cj0W4Nj4UfhrIgEfg	-	192.168.10.8	1266	192.168.10.5	135	Binpac exception: binpac exception: &enforce violation : DCE_RPC_Header:rpc_vers	-
+1499364325.480178	violation	protocol	DCE_RPC	ChEt761bXBG0Ag7zxg	-	192.168.10.8	1267	192.168.10.5	135	Binpac exception: binpac exception: &enforce violation : DCE_RPC_Header:rpc_vers	-
+1499364384.977175	violation	protocol	LDAP_TCP	CbT7Cd49LbqddtCpNd	-	192.168.10.25	52866	192.168.10.3	3268	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499364384.995782	violation	protocol	LDAP_TCP	Cb3P3T197SR7nryqSj	-	192.168.10.25	52867	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499364444.089191	violation	protocol	DCE_RPC	C95zVv1Y8k7dTbQjE3	-	192.168.10.8	1386	192.168.10.9	1027	Binpac exception: binpac exception: &enforce violation : DCE_RPC_Header:rpc_vers	-
+1499364444.089240	violation	protocol	DCE_RPC	CuzGmWXhEtStVWdP7	-	192.168.10.8	1384	192.168.10.9	1025	Binpac exception: binpac exception: &enforce violation : DCE_RPC_Header:rpc_vers	-
+1499364447.084193	violation	protocol	DCE_RPC	ClYVFC4yCdXAO4dIXl	-	192.168.10.8	1381	192.168.10.9	135	Binpac exception: binpac exception: &enforce violation : DCE_RPC_Header:rpc_vers	-
+1499364447.084780	violation	protocol	DCE_RPC	C44vze1Tl8c0joMqF3	-	192.168.10.8	1391	192.168.10.9	135	Binpac exception: binpac exception: &enforce violation : DCE_RPC_Header:rpc_vers	-
+1499364447.115338	violation	protocol	HTTP	CElqyu4hHAGHiwVcw2	-	192.168.10.8	1382	192.168.10.9	139	not a http reply line	-
+1499364491.654237	violation	protocol	DCE_RPC	CDci7cJxMWtxlPha	-	192.168.10.8	1433	192.168.10.9	1026	Binpac exception: binpac exception: &enforce violation : DCE_RPC_Header:rpc_vers	-
+1499364491.654287	violation	protocol	DCE_RPC	CVg0No3PGC4GjEPqEc	-	192.168.10.8	1434	192.168.10.9	1037	Binpac exception: binpac exception: &enforce violation : DCE_RPC_Header:rpc_vers	-
+1499364491.654459	violation	protocol	DCE_RPC	CiHSPM3wrscX3NdzJa	-	192.168.10.8	1435	192.168.10.9	1041	Binpac exception: binpac exception: &enforce violation : DCE_RPC_Header:rpc_vers	-
+1499364491.654614	violation	protocol	DCE_RPC	CS3AEWb9B5pHPDeF9	-	192.168.10.8	1436	192.168.10.9	1042	Binpac exception: binpac exception: &enforce violation : DCE_RPC_Header:rpc_vers	-
+1499364588.034028	violation	protocol	LDAP_TCP	C8nHIR3U9qsWLWrJ0f	-	192.168.10.25	53209	192.168.10.3	3268	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499364588.058575	violation	protocol	LDAP_TCP	CIRCIZ3vkByEGHOLe6	-	192.168.10.25	53210	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499364605.159606	violation	protocol	DCE_RPC	CC4GQW1n9y9PRmylU	-	192.168.10.8	1458	192.168.10.14	135	Binpac exception: binpac exception: &enforce violation : DCE_RPC_Header:rpc_vers	-
+1499364605.160119	violation	protocol	DCE_RPC	Cgm0QusUtgiEscSDe	-	192.168.10.8	1459	192.168.10.14	135	Binpac exception: binpac exception: &enforce violation : DCE_RPC_Header:rpc_vers	-
+1499364627.744627	violation	protocol	DCE_RPC	Cyxr4lTTS3UmaMrY8	-	192.168.10.8	1467	192.168.10.15	135	Binpac exception: binpac exception: &enforce violation : DCE_RPC_Header:rpc_vers	-
+1499364627.778527	violation	protocol	DCE_RPC	CytXdG4jOvlHvFQE0b	-	192.168.10.8	1468	192.168.10.15	135	Binpac exception: binpac exception: &enforce violation : DCE_RPC_Header:rpc_vers	-
+1499364790.064698	violation	protocol	LDAP_TCP	CZRydk3A6WZjMRA0Nh	-	192.168.10.25	53234	192.168.10.3	3268	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499364790.084553	violation	protocol	LDAP_TCP	CXnoPv1lCBQa5z2iO2	-	192.168.10.25	53235	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499364834.816592	violation	protocol	SSH	C6lDTp1hR2Dm3GfUxh	-	192.168.10.8	1526	192.168.10.50	22	Binpac exception: binpac exception: invalid index for case: SSH_Key_Exchange: 3	-
+1499364834.819313	violation	protocol	SSH	CpkkOk44M5n8ay3vhc	-	192.168.10.8	1532	192.168.10.50	22	Binpac exception: binpac exception: invalid index for case: SSH_Key_Exchange: 3	-
+1499364892.451716	violation	protocol	DCE_RPC	Cm5uMdTdNfhfFNr9j	-	192.168.10.8	1633	192.168.10.5	135	Binpac exception: binpac exception: &enforce violation : DCE_RPC_Header:rpc_vers	-
+1499364892.452094	violation	protocol	DCE_RPC	CzEyMl1NHYQxCj3s6d	-	192.168.10.8	1661	192.168.10.5	135	Binpac exception: binpac exception: &enforce violation : DCE_RPC_Header:rpc_vers	-
+1499364992.470240	violation	protocol	LDAP_TCP	CH29iQ1xmdvVRqwLkg	-	192.168.10.25	53242	192.168.10.3	3268	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499364992.488740	violation	protocol	LDAP_TCP	CjHSJ4XYElIQY98Dj	-	192.168.10.25	53243	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499365010.621724	violation	protocol	DCE_RPC	CECRFf17EupUo2LT69	-	192.168.10.8	1732	192.168.10.9	135	Binpac exception: binpac exception: &enforce violation : DCE_RPC_Header:rpc_vers	-
+1499365010.621889	violation	protocol	DCE_RPC	Cdbyv53MIRZisUcZ12	-	192.168.10.8	1735	192.168.10.9	1025	Binpac exception: binpac exception: &enforce violation : DCE_RPC_Header:rpc_vers	-
+1499365010.621905	violation	protocol	HTTP	C8yJQ8266Hc5SYMsY	-	192.168.10.8	1733	192.168.10.9	139	not a http reply line	-
+1499365010.621987	violation	protocol	DCE_RPC	CuJBP12DJYuSk6oE83	-	192.168.10.8	1737	192.168.10.9	1027	Binpac exception: binpac exception: &enforce violation : DCE_RPC_Header:rpc_vers	-
+1499365010.623940	violation	protocol	DCE_RPC	C7Toh83x2KNjsHnr92	-	192.168.10.8	1741	192.168.10.9	135	Binpac exception: binpac exception: &enforce violation : DCE_RPC_Header:rpc_vers	-
+1499365058.218052	violation	protocol	DCE_RPC	CFcEqC1fLbkaBXudZf	-	192.168.10.8	1783	192.168.10.9	1037	Binpac exception: binpac exception: &enforce violation : DCE_RPC_Header:rpc_vers	-
+1499365058.218329	violation	protocol	DCE_RPC	ChVFSC1gNjODoigMGb	-	192.168.10.8	1784	192.168.10.9	1041	Binpac exception: binpac exception: &enforce violation : DCE_RPC_Header:rpc_vers	-
+1499365058.218381	violation	protocol	DCE_RPC	CFM3Eb4dknCrn9bEG1	-	192.168.10.8	1786	192.168.10.9	1042	Binpac exception: binpac exception: &enforce violation : DCE_RPC_Header:rpc_vers	-
+1499365058.218387	violation	protocol	DCE_RPC	CbtSFy3frGzdSEdiM8	-	192.168.10.8	1785	192.168.10.9	1026	Binpac exception: binpac exception: &enforce violation : DCE_RPC_Header:rpc_vers	-
+1499365168.557961	violation	protocol	DCE_RPC	Ce4ZbRt4gyhgSnHNi	-	192.168.10.8	2031	192.168.10.14	135	Binpac exception: binpac exception: &enforce violation : DCE_RPC_Header:rpc_vers	-
+1499365168.558520	violation	protocol	DCE_RPC	C4f00843fp94jechj5	-	192.168.10.8	2032	192.168.10.14	135	Binpac exception: binpac exception: &enforce violation : DCE_RPC_Header:rpc_vers	-
+1499365190.875199	violation	protocol	DCE_RPC	CTzr2c17jWHXF56kre	-	192.168.10.8	2033	192.168.10.15	135	Binpac exception: binpac exception: &enforce violation : DCE_RPC_Header:rpc_vers	-
+1499365190.875739	violation	protocol	DCE_RPC	CnsCGL2IlrcLBNiAK5	-	192.168.10.8	2034	192.168.10.15	135	Binpac exception: binpac exception: &enforce violation : DCE_RPC_Header:rpc_vers	-
+1499365194.964187	violation	protocol	LDAP_TCP	CadBvC1oR0TeuZIw1e	-	192.168.10.25	53260	192.168.10.3	3268	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499365194.987495	violation	protocol	LDAP_TCP	CrTLcchKG7XmVX6Ce	-	192.168.10.25	53261	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499365387.401363	violation	protocol	LDAP_TCP	C4Tz9u2qqnbA7FRNv4	-	192.168.10.25	53273	192.168.10.3	3268	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499365387.417179	violation	protocol	LDAP_TCP	CKdIPC1nVEfPxAl1S5	-	192.168.10.25	53274	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499365393.836221	violation	protocol	SSH	CKSgo42zGWNdSOj36g	-	192.168.10.8	2086	192.168.10.50	22	Binpac exception: binpac exception: invalid index for case: SSH_Key_Exchange: 3	-
+1499365393.837324	violation	protocol	SSH	CJJAbM3YALKHRyZwQ5	-	192.168.10.8	2097	192.168.10.50	22	Binpac exception: binpac exception: invalid index for case: SSH_Key_Exchange: 3	-
+1499365452.095625	violation	protocol	DCE_RPC	CzmeID30ZRTOTq8Jg9	-	192.168.10.8	2143	192.168.10.5	135	Binpac exception: binpac exception: &enforce violation : DCE_RPC_Header:rpc_vers	-
+1499365452.096152	violation	protocol	DCE_RPC	CPW0Gg2szi7IIyekNl	-	192.168.10.8	2144	192.168.10.5	135	Binpac exception: binpac exception: &enforce violation : DCE_RPC_Header:rpc_vers	-
+1499365530.803523	violation	protocol	LDAP_TCP	CeyTgr1REkCxbWJcuc	-	192.168.10.5	56490	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:91:4-95:3)	-
+1499365530.910277	violation	protocol	LDAP_TCP	CZ8d5l1cTmCHpo79If	-	192.168.10.5	56491	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:91:4-95:3)	-
+1499365575.890417	violation	protocol	DCE_RPC	Cn8b1m2jJydRGqTjb	-	192.168.10.8	2222	192.168.10.9	135	Binpac exception: binpac exception: &enforce violation : DCE_RPC_Header:rpc_vers	-
+1499365575.890571	violation	protocol	HTTP	COESBY1BXgUrNZlGy7	-	192.168.10.8	2223	192.168.10.9	139	not a http reply line	-
+1499365575.890682	violation	protocol	DCE_RPC	Cqz3P12QyfHyjRJFT8	-	192.168.10.8	2225	192.168.10.9	1025	Binpac exception: binpac exception: &enforce violation : DCE_RPC_Header:rpc_vers	-
+1499365575.890781	violation	protocol	DCE_RPC	CqUgFo1TsVdsLzGU05	-	192.168.10.8	2227	192.168.10.9	1027	Binpac exception: binpac exception: &enforce violation : DCE_RPC_Header:rpc_vers	-
+1499365575.892633	violation	protocol	DCE_RPC	CyrzKw2IHgOqXzmXG9	-	192.168.10.8	2231	192.168.10.9	135	Binpac exception: binpac exception: &enforce violation : DCE_RPC_Header:rpc_vers	-
+1499365600.073407	violation	protocol	LDAP_TCP	CeRLzAQTQcAgdBkP7	-	192.168.10.25	53358	192.168.10.3	3268	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499365600.090079	violation	protocol	LDAP_TCP	CUnpkz2t3UljpfpPx9	-	192.168.10.25	53359	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499365601.300707	violation	protocol	LDAP_TCP	CuUD2L2VkBNwajauz1	-	192.168.10.15	59475	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:91:4-95:3)	-
+1499365601.408700	violation	protocol	LDAP_TCP	CrIDxQ2HgD4g0fDqWh	-	192.168.10.15	59476	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:91:4-95:3)	-
+1499365623.404734	violation	protocol	DCE_RPC	CtGZojVYxC6kfVjQ7	-	192.168.10.8	2273	192.168.10.9	1037	Binpac exception: binpac exception: &enforce violation : DCE_RPC_Header:rpc_vers	-
+1499365623.404800	violation	protocol	DCE_RPC	CZH3xl1jGPNdjzfUxf	-	192.168.10.8	2274	192.168.10.9	1026	Binpac exception: binpac exception: &enforce violation : DCE_RPC_Header:rpc_vers	-
+1499365623.404925	violation	protocol	DCE_RPC	C3fD0F1NsaFJcsexje	-	192.168.10.8	2275	192.168.10.9	1041	Binpac exception: binpac exception: &enforce violation : DCE_RPC_Header:rpc_vers	-
+1499365623.405617	violation	protocol	DCE_RPC	CRiiedUEaB6nnXEk	-	192.168.10.8	2276	192.168.10.9	1042	Binpac exception: binpac exception: &enforce violation : DCE_RPC_Header:rpc_vers	-
+1499365733.402367	violation	protocol	DCE_RPC	CaEtWoikcIAPaDKBb	-	192.168.10.8	2298	192.168.10.14	135	Binpac exception: binpac exception: &enforce violation : DCE_RPC_Header:rpc_vers	-
+1499365733.402823	violation	protocol	DCE_RPC	COiJa9SMCRNLhAZze	-	192.168.10.8	2299	192.168.10.14	135	Binpac exception: binpac exception: &enforce violation : DCE_RPC_Header:rpc_vers	-
+1499365756.131656	violation	protocol	DCE_RPC	Cw9v775mhHGs3sbpl	-	192.168.10.8	2300	192.168.10.15	135	Binpac exception: binpac exception: &enforce violation : DCE_RPC_Header:rpc_vers	-
+1499365756.132180	violation	protocol	DCE_RPC	CDXNiG56wPCwZuRX8	-	192.168.10.8	2301	192.168.10.15	135	Binpac exception: binpac exception: &enforce violation : DCE_RPC_Header:rpc_vers	-
+1499365802.525617	violation	protocol	LDAP_TCP	CPUhcT2D2nuLgqqlob	-	192.168.10.25	53363	192.168.10.3	3268	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499365802.545946	violation	protocol	LDAP_TCP	CrDAbH25vMZIGarkJh	-	192.168.10.25	53364	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499365960.730900	violation	protocol	SSH	Cul4fh4454C6GUxS2k	-	192.168.10.8	2380	192.168.10.50	22	Binpac exception: binpac exception: invalid index for case: SSH_Key_Exchange: 3	-
+1499365960.732116	violation	protocol	SSH	C0Ukl41qTRL4JbWxd3	-	192.168.10.8	2389	192.168.10.50	22	Binpac exception: binpac exception: invalid index for case: SSH_Key_Exchange: 3	-
+1499366018.545363	violation	protocol	DCE_RPC	C9CHzI371rlGIz8XBf	-	192.168.10.8	2489	192.168.10.5	135	Binpac exception: binpac exception: &enforce violation : DCE_RPC_Header:rpc_vers	-
+1499366018.545939	violation	protocol	DCE_RPC	CsfOc93LATQETNIni3	-	192.168.10.8	2490	192.168.10.5	135	Binpac exception: binpac exception: &enforce violation : DCE_RPC_Header:rpc_vers	-
+1499366126.516525	violation	protocol	LDAP_TCP	Cdj0vO8YJWdJBzOQd	-	192.168.10.25	53370	192.168.10.3	3268	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499366126.532465	violation	protocol	LDAP_TCP	C1ZvA01RJHSyz2bBb4	-	192.168.10.25	53371	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499366128.666225	violation	protocol	DCE_RPC	Cjwv572EOYgas25S9c	-	192.168.10.8	2550	192.168.10.9	135	Binpac exception: binpac exception: &enforce violation : DCE_RPC_Header:rpc_vers	-
+1499366128.666386	violation	protocol	HTTP	CEGmYY2ir3a5k8cyQa	-	192.168.10.8	2551	192.168.10.9	139	not a http reply line	-
+1499366128.666522	violation	protocol	DCE_RPC	CBdnHc1w66JL1NZdB9	-	192.168.10.8	2553	192.168.10.9	1025	Binpac exception: binpac exception: &enforce violation : DCE_RPC_Header:rpc_vers	-
+1499366128.666670	violation	protocol	DCE_RPC	Ci0wpF35kJ8SeG4Qjl	-	192.168.10.8	2555	192.168.10.9	1027	Binpac exception: binpac exception: &enforce violation : DCE_RPC_Header:rpc_vers	-
+1499366128.668384	violation	protocol	DCE_RPC	Cz4KNO2cTn67vHz9B	-	192.168.10.8	2573	192.168.10.9	135	Binpac exception: binpac exception: &enforce violation : DCE_RPC_Header:rpc_vers	-
+1499366176.231365	violation	protocol	DCE_RPC	Cfmmy51cFwFhej51o5	-	192.168.10.8	2616	192.168.10.9	1026	Binpac exception: binpac exception: &enforce violation : DCE_RPC_Header:rpc_vers	-
+1499366176.231459	violation	protocol	DCE_RPC	ChTLUw3ytXJkyQeDG	-	192.168.10.8	2617	192.168.10.9	1037	Binpac exception: binpac exception: &enforce violation : DCE_RPC_Header:rpc_vers	-
+1499366176.231613	violation	protocol	DCE_RPC	C648tr1hg7kKJvnyGb	-	192.168.10.8	2618	192.168.10.9	1041	Binpac exception: binpac exception: &enforce violation : DCE_RPC_Header:rpc_vers	-
+1499366287.105778	violation	protocol	DCE_RPC	Cgmg1x4OFkBfCXAYj	-	192.168.10.8	2917	192.168.10.14	135	Binpac exception: binpac exception: &enforce violation : DCE_RPC_Header:rpc_vers	-
+1499366287.106229	violation	protocol	DCE_RPC	ClWZyC2wLcFn1t8T81	-	192.168.10.8	2918	192.168.10.14	135	Binpac exception: binpac exception: &enforce violation : DCE_RPC_Header:rpc_vers	-
+1499366308.591030	violation	protocol	DCE_RPC	Cai9IJ35w2tLyGXlk8	-	192.168.10.8	2925	192.168.10.15	135	Binpac exception: binpac exception: &enforce violation : DCE_RPC_Header:rpc_vers	-
+1499366308.591504	violation	protocol	DCE_RPC	CoKrco2giK4R2lepUc	-	192.168.10.8	2939	192.168.10.15	135	Binpac exception: binpac exception: &enforce violation : DCE_RPC_Header:rpc_vers	-
+1499366362.102304	violation	protocol	LDAP_TCP	CRbkpE1v107Wg2nL36	-	192.168.10.19	39929	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499366362.102339	violation	protocol	LDAP_TCP	Cq5Quy3SScZMZSXXmf	-	192.168.10.19	51897	192.168.10.3	3268	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499366451.206338	violation	protocol	LDAP_TCP	CncgfH3uycaoLn5z76	-	192.168.10.25	53376	192.168.10.3	3268	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499366451.343165	violation	protocol	LDAP_TCP	CE41Xi1GTKyqEx7rre	-	192.168.10.25	53377	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499366481.610321	violation	protocol	LDAP_TCP	ChvYTi4bMq0wHxK6t5	-	192.168.10.17	56496	192.168.10.3	3268	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499366481.610334	violation	protocol	LDAP_TCP	CBwJt01OIfhlUbsGh7	-	192.168.10.17	44577	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499366508.304405	violation	protocol	SSH	COoBIm2Wrx7me0UURb	-	192.168.10.8	3170	192.168.10.50	22	Binpac exception: binpac exception: invalid index for case: SSH_Key_Exchange: 3	-
+1499366508.305994	violation	protocol	SSH	C0yKdj1S1jmZK9b3pa	-	192.168.10.8	3178	192.168.10.50	22	Binpac exception: binpac exception: invalid index for case: SSH_Key_Exchange: 3	-
+1499366566.060345	violation	protocol	DCE_RPC	CVlFMP23j46b90zi49	-	192.168.10.8	3213	192.168.10.5	135	Binpac exception: binpac exception: &enforce violation : DCE_RPC_Header:rpc_vers	-
+1499366566.060960	violation	protocol	DCE_RPC	CmBgDA6lmTUyeqNza	-	192.168.10.8	3215	192.168.10.5	135	Binpac exception: binpac exception: &enforce violation : DCE_RPC_Header:rpc_vers	-
+1499366680.716232	violation	protocol	DCE_RPC	CaUXJk1sVY8AspiPP6	-	192.168.10.8	3412	192.168.10.9	135	Binpac exception: binpac exception: &enforce violation : DCE_RPC_Header:rpc_vers	-
+1499366680.716416	violation	protocol	HTTP	C8EPZ1SotdUm6w7B9	-	192.168.10.8	3413	192.168.10.9	139	not a http reply line	-
+1499366680.716511	violation	protocol	DCE_RPC	C8WoDX3r1spThlXoi4	-	192.168.10.8	3415	192.168.10.9	1025	Binpac exception: binpac exception: &enforce violation : DCE_RPC_Header:rpc_vers	-
+1499366680.716615	violation	protocol	DCE_RPC	CFtalj46tH5ZFsHVw1	-	192.168.10.8	3417	192.168.10.9	1027	Binpac exception: binpac exception: &enforce violation : DCE_RPC_Header:rpc_vers	-
+1499366680.718446	violation	protocol	DCE_RPC	CMWUOl3Ytk4VI9h0f4	-	192.168.10.8	3421	192.168.10.9	135	Binpac exception: binpac exception: &enforce violation : DCE_RPC_Header:rpc_vers	-
+1499366728.238529	violation	protocol	DCE_RPC	CNuOPw465mqd0xi6R4	-	192.168.10.8	3628	192.168.10.9	1037	Binpac exception: binpac exception: &enforce violation : DCE_RPC_Header:rpc_vers	-
+1499366728.238920	violation	protocol	DCE_RPC	CKpCbDYBx4QTVgxL3	-	192.168.10.8	3630	192.168.10.9	1041	Binpac exception: binpac exception: &enforce violation : DCE_RPC_Header:rpc_vers	-
+1499366728.238990	violation	protocol	DCE_RPC	CP02SU7dUqeLCyHG9	-	192.168.10.8	3629	192.168.10.9	1026	Binpac exception: binpac exception: &enforce violation : DCE_RPC_Header:rpc_vers	-
+1499366728.239010	violation	protocol	DCE_RPC	C1zHC43x35EuHebWsi	-	192.168.10.8	3631	192.168.10.9	1042	Binpac exception: binpac exception: &enforce violation : DCE_RPC_Header:rpc_vers	-
+1499366774.516932	violation	protocol	LDAP_TCP	CU8isQ2D9l6H5gjwK1	-	192.168.10.25	53383	192.168.10.3	3268	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499366774.532973	violation	protocol	LDAP_TCP	Cwc2VL3Tv6qapv0Dr7	-	192.168.10.25	53384	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499366882.257943	violation	protocol	LDAP_TCP	ChBinD3noG1dgwT7x	-	192.168.10.8	1039	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:91:4-95:3)	-
+1499366884.072738	violation	protocol	LDAP_TCP	CTjHam1F0gskeKwTO1	-	192.168.10.8	1043	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:91:4-95:3)	-
+1499366884.079790	violation	protocol	LDAP_TCP	CbAuQ94QENR3TJWUUg	-	192.168.10.8	1045	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:91:4-95:3)	-
+1499366884.408479	violation	protocol	LDAP_TCP	CcphTbLoK3yu9Pgf4	-	192.168.10.25	53413	192.168.10.3	3268	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499366884.424416	violation	protocol	LDAP_TCP	C48e7j41mRC7RSrDH2	-	192.168.10.25	53414	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499366895.216760	violation	protocol	LDAP_TCP	CPkYQc3ZOOIlYrRSi	-	192.168.10.16	42652	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:91:4-95:3)	-
+1499366895.220991	violation	protocol	LDAP_TCP	C1Zd8E3GuluPOdFmfd	-	192.168.10.16	42656	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499366895.220994	violation	protocol	LDAP_TCP	C5PWke46pP4wSO9jDf	-	192.168.10.16	47060	192.168.10.3	3268	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499366896.389290	violation	protocol	LDAP_TCP	CtZKxR2KfCIeV66ELd	-	192.168.10.8	1065	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:91:4-95:3)	-
+1499366896.406219	violation	protocol	LDAP_TCP	CkYvUu1ZZO5JWFLvA2	-	192.168.10.8	1066	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:91:4-95:3)	-
+1499366962.910400	violation	protocol	LDAP_TCP	CqJ9iN1F1Y94yPFgCk	-	192.168.10.8	1122	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:91:4-95:3)	-
+1499366971.605626	violation	protocol	LDAP_TCP	CMKcEd190RaGS3X1Xd	-	192.168.10.12	47316	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499366971.605645	violation	protocol	LDAP_TCP	CdYj4hgxMwtBwdaR1	-	192.168.10.12	47208	192.168.10.3	3268	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499367024.770852	violation	protocol	LDAP_TCP	CU71cD2WlMIt9n73W3	-	192.168.10.25	53425	192.168.10.3	3268	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499367024.790200	violation	protocol	LDAP_TCP	CsHwDfcmDZrvapjJb	-	192.168.10.25	53426	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499367185.664976	violation	protocol	LDAP_TCP	CZ2KOk3gvlWOUD40F3	-	192.168.10.9	8815	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:91:4-95:3)	-
+1499367185.675317	violation	protocol	LDAP_TCP	CUITdX3PtQq5SYdNSc	-	192.168.10.9	8816	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:91:4-95:3)	-
+1499367188.367947	violation	protocol	LDAP_TCP	ChafhjOXcnTwIheU2	-	192.168.10.25	53443	192.168.10.3	3268	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499367188.384407	violation	protocol	LDAP_TCP	C3cGOo2nKyUzniGr7l	-	192.168.10.25	53444	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499367422.451740	violation	protocol	LDAP_TCP	Civ4u23CK57O6snwi7	-	192.168.10.25	53461	192.168.10.3	3268	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499367422.473272	violation	protocol	LDAP_TCP	Cd1tP31LI7XXI0K9v9	-	192.168.10.25	53462	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499367746.447879	violation	protocol	LDAP_TCP	C5z6r53s3ax55KoN7e	-	192.168.10.25	53526	192.168.10.3	3268	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499367746.470227	violation	protocol	LDAP_TCP	C55Fv333geYtpFbA7i	-	192.168.10.25	53527	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499367826.077320	violation	protocol	LDAP_TCP	CyVBcS3VnkyRSkITJ2	-	192.168.10.5	57511	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:91:4-95:3)	-
+1499367826.182355	violation	protocol	LDAP_TCP	CX6SPU1vjAckZX5WO7	-	192.168.10.5	57512	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:91:4-95:3)	-
+1499367919.683778	violation	protocol	LDAP_TCP	CDScDz2L0ZEufDx6Q6	-	192.168.10.14	51191	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:91:4-95:3)	-
+1499367919.791570	violation	protocol	LDAP_TCP	CD0mwn2Cwu4Ysqdpd2	-	192.168.10.14	51192	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:91:4-95:3)	-
+1499368016.947788	violation	protocol	LDAP_TCP	C24ZlWvVmyPTSXDkk	-	192.168.10.25	53540	192.168.10.3	3268	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499368016.968877	violation	protocol	LDAP_TCP	C0RS9l2tZvVn5GXZq3	-	192.168.10.25	53541	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499368035.173155	violation	protocol	DNP3_UDP	CkFRtd2VVUoVdQtZlf	-	192.168.10.15	51331	192.168.10.3	53	broken_checksum	-
+1499368105.679533	violation	protocol	LDAP_TCP	CE8VEYIG1umkrD3b	-	192.168.10.14	51214	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:91:4-95:3)	-
+1499368105.686896	violation	protocol	LDAP_TCP	C3TuGf4tLdTHKJUhN8	-	192.168.10.14	51215	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:91:4-95:3)	-
+1499368162.692117	violation	protocol	LDAP_TCP	CQyAUh4nZJmzdawit7	-	192.168.10.15	60751	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:91:4-95:3)	-
+1499368162.802695	violation	protocol	LDAP_TCP	CR1s1c1pEZoQB4FMrc	-	192.168.10.15	60752	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:91:4-95:3)	-
+1499368286.530640	violation	protocol	LDAP_TCP	CxC8CXFJbBGJHruC3	-	192.168.10.25	53548	192.168.10.3	3268	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499368286.547493	violation	protocol	LDAP_TCP	CxVSFe2XTxromPvCya	-	192.168.10.25	53549	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499368326.888311	violation	protocol	LDAP_TCP	CzGIA11SmUJbbH7Lel	-	192.168.10.9	9174	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:91:4-95:3)	-
+1499368326.894891	violation	protocol	LDAP_TCP	Cj9zCa1pF8qQuV5HTj	-	192.168.10.9	9175	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:91:4-95:3)	-
+1499368556.438770	violation	protocol	LDAP_TCP	C6eB2S3186I4Vihvb	-	192.168.10.25	53556	192.168.10.3	3268	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499368556.456734	violation	protocol	LDAP_TCP	CHAewB248mmgNwZkEa	-	192.168.10.25	53557	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499368826.433197	violation	protocol	LDAP_TCP	CoPBq94KuvEccK89Sa	-	192.168.10.25	53604	192.168.10.3	3268	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499368826.450148	violation	protocol	LDAP_TCP	ChHar02UlwVhRKFqul	-	192.168.10.25	53605	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499368987.285254	violation	protocol	LDAP_TCP	CnSz3r4JoHXjTeGDN2	-	192.168.10.25	53614	192.168.10.3	3268	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499368987.308011	violation	protocol	LDAP_TCP	CI1dCF3TdZkX5iEiY5	-	192.168.10.25	53615	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499369096.457739	violation	protocol	LDAP_TCP	CtDOS5F3y4szX6QL8	-	192.168.10.25	53616	192.168.10.3	3268	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499369096.473734	violation	protocol	LDAP_TCP	C0lFRtZKky1MDx7g7	-	192.168.10.25	53617	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499369366.421311	violation	protocol	LDAP_TCP	CkBIoX1QeG1kMR2421	-	192.168.10.25	53624	192.168.10.3	3268	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499369366.439653	violation	protocol	LDAP_TCP	C3bo5E3PWI3oj0mir6	-	192.168.10.25	53625	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499369636.909485	violation	protocol	LDAP_TCP	C4rC3g2Auy2MGO94cj	-	192.168.10.25	53650	192.168.10.3	3268	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499369636.934497	violation	protocol	LDAP_TCP	C7bzgz4NJG8ozlJFx1	-	192.168.10.25	53651	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499369762.127715	violation	protocol	LDAP_TCP	CEowiB1H6VriY4FMXi	-	192.168.10.19	40649	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499369762.129207	violation	protocol	LDAP_TCP	Cmjj9C4yoU1KDfTfqb	-	192.168.10.19	52617	192.168.10.3	3268	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499369839.000033	violation	protocol	LDAP_TCP	C0PUeO3nf84NiCQ0x4	-	192.168.10.25	53689	192.168.10.3	3268	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499369839.019486	violation	protocol	LDAP_TCP	CMfF9p4O9rDdfa7s45	-	192.168.10.25	53690	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499369881.643037	violation	protocol	LDAP_TCP	CAhplY21r4Vf2ikx27	-	192.168.10.17	46188	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499369881.643186	violation	protocol	LDAP_TCP	Cy0rEL2Gj71UigpKH9	-	192.168.10.17	58107	192.168.10.3	3268	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499370024.217445	violation	protocol	LDAP_TCP	Cswfya9on936CBsA6	-	192.168.10.14	51538	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:91:4-95:3)	-
+1499370024.428046	violation	protocol	LDAP_TCP	CQLBxo3CtHSQHzJNNk	-	192.168.10.14	51539	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:91:4-95:3)	-
+1499370041.414267	violation	protocol	LDAP_TCP	C8jMdXSAB0KaLMUFh	-	192.168.10.25	53722	192.168.10.3	3268	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499370041.434619	violation	protocol	LDAP_TCP	C3T1cd14O33LZa5Mg2	-	192.168.10.25	53723	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499370136.609775	violation	protocol	LDAP_TCP	C5o3I43pMOAdlf1Pt5	-	192.168.10.25	53727	192.168.10.3	3268	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499370136.625479	violation	protocol	LDAP_TCP	Cvl1dP1b5KGPjUoQgb	-	192.168.10.25	53728	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499370256.452762	violation	protocol	LDAP_TCP	COP1by1lSTwdOxAorl	-	192.168.10.25	53751	192.168.10.3	3268	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499370256.475780	violation	protocol	LDAP_TCP	CCAzqE4ztm3aONW972	-	192.168.10.25	53752	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499370295.258434	violation	protocol	LDAP_TCP	CWDOkL2d9E7Rf1fL16	-	192.168.10.16	43638	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499370295.260728	violation	protocol	LDAP_TCP	CK3Hv02FMXAipkBvhf	-	192.168.10.16	48042	192.168.10.3	3268	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499370371.640110	violation	protocol	LDAP_TCP	Cb78mI3WAJyAcDbJt5	-	192.168.10.12	49538	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499370371.642127	violation	protocol	LDAP_TCP	CLXuwS2Q9xCInC3xMj	-	192.168.10.12	49430	192.168.10.3	3268	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499370446.494786	violation	protocol	LDAP_TCP	CBoU2lYqoTzRPEMre	-	192.168.10.25	53757	192.168.10.3	3268	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499370446.513552	violation	protocol	LDAP_TCP	CtrSWz2wUtqkzPo3Ga	-	192.168.10.25	53758	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499370624.659308	violation	protocol	LDAP_TCP	CVjJAO1iwBfKmkPVI3	-	192.168.10.25	53808	192.168.10.3	3268	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499370624.675822	violation	protocol	LDAP_TCP	CPFgNN33hfCLcvuVV3	-	192.168.10.25	53809	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499370815.796596	violation	protocol	LDAP_TCP	Cig6lDQ05shVmrEha	-	192.168.10.25	53818	192.168.10.3	3268	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499370815.812460	violation	protocol	LDAP_TCP	C1sUL14GvEjgAd8hkl	-	192.168.10.25	53819	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499371053.913923	violation	protocol	LDAP_TCP	C3pJhl1EYWuMMVtoS5	-	192.168.10.25	53943	192.168.10.3	3268	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499371053.930107	violation	protocol	LDAP_TCP	C8uo7M1SGIT7AuFU4c	-	192.168.10.25	53944	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499371172.871744	violation	protocol	LDAP_TCP	CbMy7P2yxh0DMxaJSf	-	192.168.10.25	53974	192.168.10.3	3268	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499371172.888343	violation	protocol	LDAP_TCP	Co0ORB3q1npq91Viz9	-	192.168.10.25	53975	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499371244.157931	violation	protocol	LDAP_TCP	Ch5iYU2LDFUOL5Xi32	-	192.168.10.19	41332	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499371273.881065	violation	protocol	LDAP_TCP	CV7fcb4FRqUCzz1Yce	-	192.168.10.15	61344	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:91:4-95:3)	-
+1499371274.177028	violation	protocol	LDAP_TCP	CLhSJZFKr7Hwu36S5	-	192.168.10.15	61345	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:91:4-95:3)	-
+1499371290.785865	violation	protocol	LDAP_TCP	CfBDa11ARiR11EXs35	-	192.168.10.5	58669	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:91:4-95:3)	-
+1499371290.894035	violation	protocol	LDAP_TCP	CHL4Ax2azZBhJSV8Mi	-	192.168.10.5	58670	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:91:4-95:3)	-
+1499371295.637460	violation	protocol	LDAP_TCP	CFoFlz1dwIeEqTaeNd	-	192.168.10.9	9966	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:91:4-95:3)	-
+1499371295.787786	violation	protocol	LDAP_TCP	CyPXVm1GfQYoyzGPwg	-	192.168.10.9	9967	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:91:4-95:3)	-
+1499371297.315457	violation	protocol	LDAP_TCP	CPgjcFmsCDGf1ZB2g	-	192.168.10.5	58676	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:91:4-95:3)	-
+1499371297.325074	violation	protocol	LDAP_TCP	CZzd4Z3AkuG80fWoDf	-	192.168.10.5	58677	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:91:4-95:3)	-
+1499371310.148045	violation	protocol	LDAP_TCP	CcCiCh2yEZaVujsDed	-	192.168.10.25	54123	192.168.10.3	3268	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499371310.166824	violation	protocol	LDAP_TCP	C4QOmr4HzJs6ZNdRWi	-	192.168.10.25	54124	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499371377.032844	violation	protocol	LDAP_TCP	CgeX4v2tBCsQ3DfZy7	-	192.168.10.19	53304	192.168.10.3	3268	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499371418.655620	violation	protocol	LDAP_TCP	CMJvJL3RqRHoqR9SUa	-	192.168.10.17	58607	192.168.10.3	3268	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+1499371418.672831	violation	protocol	LDAP_TCP	CfLimO2VJy9wsMOpdg	-	192.168.10.17	46691	192.168.10.3	389	data is missing (/home/ubuntu/zeek/zeek/src/analyzer/protocol/ldap/asn1.spicy:115:10-115:14)	-
+#close	2025-05-30-15-44-39

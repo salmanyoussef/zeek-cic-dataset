@@ -1,0 +1,15 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	pe
+#open	2025-05-30-15-59-34
+#fields	ts	id	machine	compile_ts	os	subsystem	is_exe	is_64bit	uses_aslr	uses_dep	uses_code_integrity	uses_seh	has_import_table	has_export_table	has_cert_table	has_debug_data	section_names
+#types	time	string	string	time	string	string	bool	bool	bool	bool	bool	bool	bool	bool	bool	bool	vector[string]
+1499429011.143194	F24MUalbbCmW1Qb1c	I386	1499414672.000000	Windows 10	WINDOWS_GUI	T	F	T	T	F	T	T	F	T	T	.text,.data,.idata,.rsrc,.reloc
+1499429436.415439	F4iTFk3kRkueSGPVV6	AMD64	1499414679.000000	Windows 10	WINDOWS_GUI	T	T	T	T	F	T	T	F	T	T	.text,.rdata,.data,.pdata,.rsrc,.reloc
+1499429613.282359	FBdw2DS7IygGGI9Bd	AMD64	2.779022362e+09	Windows 10	WINDOWS_GUI	T	T	T	T	F	T	T	F	T	T	.text,.rdata,.data,.pdata,.boxload,.rsrc,.reloc
+1499431062.197284	FP5KAHSWNtRmyaDPf	AMD64	1499426977.000000	Windows 10	WINDOWS_GUI	T	T	T	T	F	T	T	F	T	T	.text,.rdata,.data,.pdata,.rsrc,.reloc
+1499433003.436302	FbTnX814aJuvehDcb	I386	1397712580.000000	Windows 95 or NT 4.0	WINDOWS_GUI	T	F	F	F	F	T	T	F	T	F	UPX0,UPX1,.rsrc
+1499433003.453804	FRcFPx46NAmklQBqc3	I386	1397712580.000000	Windows 95 or NT 4.0	WINDOWS_GUI	T	F	F	F	F	T	T	F	T	F	UPX0,UPX1,.rsrc
+#close	2025-05-30-16-01-50
